@@ -1,0 +1,18 @@
+{
+    "name": "stefano/test",
+    "autoload": {
+        "psr-4": {
+            "Log\\": "log/",
+            "Mul\\": "mul/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stefano Cappellini",
+            "email": "contact@stefanocappellini.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
